@@ -1,0 +1,291 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 600px;
+  background-position: center;
+  background-size: contain;
+  text-align: center;
+  gap: 10px;
+}
+.not-found-container .card5{
+  background-image: transparent;
+  background-position: center;
+  background-size: cover;
+}  
+.not-found-container button {
+    padding: 10px 20px;
+    background-color:blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+  
+.not-found-container button:hover {
+    background-color: rgba(0, 0, 255, 0.781);
+}
+.header{
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  color: blue;
+  padding: 0px 80px;
+  box-shadow: 2px 2px 6px gainsboro;
+  position: absolute;
+}
+.header .title h2{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 27px;
+  color: blue;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.header .links a{
+  margin: 0px 20px;
+  text-decoration: none;
+  color:blue;
+  
+}
+.header .links a:hover{
+  border-bottom: 1px solid blue;
+  transition: all ease-in 0.1s;
+}
+.header button{
+  border: none;
+  border-radius: 20px;
+  color: white;
+  background-color: blue;
+  padding: 10px 25px;
+  cursor: pointer;
+  transition: all ease 0.4s;
+  margin: 0px 40px;
+  font-weight: bold;
+}
+.header button:hover{
+  color:blue;
+  background-color: white;
+  border: 1px solid blue;
+}
+.active{
+  color: gray;
+  font-weight: bold;
+  border-bottom: 2px solid rgba(24, 45, 231, 0.788);
+}
+ .container{
+  width: 100%;
+  height: 750px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0px;
+  gap: 20px;
+  border-bottom: 3px solid gainsboro;
+ }
+ .container .card1{
+  width: 45%;
+  height: 350px ;
+  padding: 40px;
+  text-align: justify;
+ }
+ .container .card1 h2{
+  font-size: 50px;
+  margin-bottom: 20px;
+ }
+ .container .card1 h6{
+  font-size: 20px;
+  margin-bottom: 20px;
+ }
+ .container .card1 a{
+  width: 95%;
+  padding: 10px;
+  border-radius: 20px;
+  outline: none;
+  background-color: blue;
+  color: white;
+  border: none;
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-decoration: none;
+ }
+ .container .card1 a:hover{
+  background-color: rgba(4, 4, 248, 0.76);
+  color: white;
+ }
+ .container .card2{
+  width: 45%;
+  height: 550px ;
+  background-image: url(https://media.licdn.com/dms/image/D4E12AQEdzoeIqzMueQ/article-cover_image-shrink_720_1280/0/1695326296178?e=2147483647&v=beta&t=P0iylj0c4Isn-T-b1cAojiANDrlDA5WVPhw0Yhy3Uhw);
+  background-position: center;
+  background-size: 50em; 
+  border-radius: 15px;
+}
+.container2 {
+  width: 100%;
+  height: 230px;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 3px solid gainsboro;
+}
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+.card {
+  display: inline-block;
+  width: 15%;
+  height: 80px;
+  margin: 10px 0px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  vertical-align: top;
+  padding: 15px;
+}
+.container2 .card{
+
+  background-image: url(https://blogs.microsoft.com/wp-content/uploads/prod/2012/08/8867.Microsoft_5F00_Logo_2D00_for_2D00_screen-1024x376.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.container3 {
+  width: 100%;
+  height: 350px;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 3px solid gainsboro;
+}
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.container3 .card111 {
+  display: inline-block;
+  width: 20%;
+  height: 60%;
+  margin: 10px;
+  border-radius: 8px;
+  text-align: center;
+  vertical-align: top;
+  padding: 15px;
+  transition: all ease-in 0.4s ;
+  border: 1px solid blue;
+}
+.container3 .card111:hover{
+  transform: scale(1.10);
+}
+.container3 .card111 h2{
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.container3 .card111 h6{
+  font-size: 18px;
+  text-align: justify;
+  font-weight: 100;
+}
+
+.container4 {
+  width: 100%;
+  height: 350px; 
+  display: flex;
+  flex-wrap: wrap; 
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+}
+.container4 .card22 {
+  width: 25%;
+  height: 200px; 
+  border-radius: 10px; 
+  transition: all ease-in 0.4s;
+  cursor: pointer;
+  margin: 0px 20px;
+  margin-bottom: 40px;
+  border-bottom: 3px solid blue;
+}
+.container4 .card22 h2{
+  font-size: 15px;
+  font-weight: 100;
+}
+.container4 .card22 h6{
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  font-size: 18px;
+  text-align: left;
+  padding: 5px;
+  margin-bottom: 10px;
+  font-weight: 100;
+}
+.footer{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  background-color:rgba(0, 68, 255, 0.829);
+  color: white;
+  padding:30px;
+}
+
+.cardd1 {
+  flex: 1;
+  margin: 0 15px;
+  
+}
+
+.cardd1 h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid white;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.cardd1 a {
+  display: flex;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.cardd1 p{
+  display: flex;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.cardd1 a:hover {
+  color:rgb(179, 173, 173);
+  cursor: pointer;
+}
+.copyright{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  font-size: 10px!important;
+  background-color: blue;
+  color: white;
+  text-align: justify;
+}
+.copyright p{
+  font-size: 12px;
+}
+
+
